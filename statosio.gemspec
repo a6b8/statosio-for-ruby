@@ -10,25 +10,20 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Statosio generate charts in a .svg format."
   spec.description   = "Statosio generate charts in a .svg format. Works with prawn-svg to generate .pdf documents."
-  spec.homepage      = "https://d3.statoiso.com"
+  spec.homepage      = "https://d3.statosio.com"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.4.0"
 
-  spec.metadata["allowed_push_host"] = "Set to 'http://mygemserver.com'"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://d3.statoiso.com"
-  spec.metadata["changelog_uri"] = "https://d3.statoiso.com"
+  spec.metadata["source_code_uri"] = "https://github.com/a6b8/statosio.rb"
+  spec.metadata["changelog_uri"] = "https://github.com/a6b8/statosio.rb/releases"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
-    `git ls-files -z`.split("\x0").reject { |f| 
-      puts f
-      puts f.match(%r{\A(?:test|spec|features)/})
-      puts '___'
-      f.match(%r{\A(?:test|spec|features)/}) 
-    }
+    `git ls-files -z`.split("\x0").reject { |f| f.match(%r{\A(?:test|spec|features)/}) }
   end
 
 
