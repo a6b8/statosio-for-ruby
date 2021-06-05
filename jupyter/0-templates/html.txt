@@ -22,8 +22,8 @@ body {background-color: green}
     <script>
         d3.statosio( 
             dataset['data'], 
-            "<--x-->",
-            "<--y-->", 
+            '<--x-->',
+            <--y-->, 
             <--options-->
         )
     </script>

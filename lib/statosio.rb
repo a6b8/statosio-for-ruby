@@ -27,6 +27,7 @@ module Statosio
 
 
     def render_prepare( values )
+      values[:y].class.to_s == 'String' ? values[:y] = [ values[:y] ] : ''
       self.set_markers_value( values )
       self.set_boilerplate
       html = self.get_boilerplate
@@ -50,7 +51,7 @@ module Statosio
       return svg
     end
 
-    
+
     def values_validation( dataset: nil, x: nil, y: nil, options: nil, allow_list: nil, silent: false )  
       def check_dataset( dataset, messages, errors )
         if !dataset.nil?
@@ -65,10 +66,10 @@ module Statosio
                   .to_a
                 if keys.eql? search
                 else
-                  errors.push( messages[:dataset][ 4 ])
+                  errors.push( messages[:dataset][ 4 ] )
                 end
               else
-                errors.push( messages[:dataset][ 3 ])
+                errors.push( messages[:dataset][ 3 ] )
               end
             else
               errors.push( messages[:dataset][ 2 ] )

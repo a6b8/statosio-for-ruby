@@ -1,8 +1,9 @@
 # statosio.rb
 
+## Usage
 Statosio.rb is based on [statosio.js](https://github.com/a6b8/statosio.js) and helps to generate simple charts, in a fast and reliable way.
 
-Statosio generates charts in the ```.svg``` format. Optimized for usage with [prawn-svg](https://github.com/mogest/prawn-svg) to generate documents in ```.pdf```. All Charts Data can be searched no information get lost.
+Statosio output charts in the ```.svg``` format. Optimized for usage with [prawn-svg](https://github.com/mogest/prawn-svg) to generate documents in ```.pdf```. All Charts Data can be searched no information get lost.
 
 
 ✔️ build simple diagrams fast and reliable, with one function!<br>
@@ -33,18 +34,77 @@ Statosio generates charts in the ```.svg``` format. Optimized for usage with [pr
 [Change style to dark-mode](https://d3.statosio.com/tutorials/change-style.html)
 
 
-## Statosio
+## Quickstart 
+
+```ruby
+gem install 'statosio'
+gem install 'open-uri'
+gem install 'json'
+```
 
 ```ruby
 require 'statosio'
-chart = Statosio.new
-chart.generate(
-    dataset: nil,
-    x: nil,
-    y: nil,
+require 'open-uri'
+require 'json'
+
+# Initialize Statosio
+statosio = Statosio::Generate.new
+
+# Load Sample Dataset
+url = 'https://d3.statosio.com/data/performance.json'
+content = URI.open( url ).read
+dataset = JSON.parse( content )
+
+# Generate chart as .svg
+chart = statosio.svg(
+    dataset: dataset,
+    x: 'name',
+    y: 'mobile',
     options: {}
 )
-``````
+
+puts chart
+# -> <svg>[]....</svg>
+```
+
+
+## ```Statosio``` with  ```prawn```
+```ruby
+gem install 'statosio'
+gem install 'prawn'
+gem install 'prawn-svg'
+```
+
+```ruby
+require 'open-uri'
+require 'statosio'
+
+require 'prawn'
+require 'prawn-svg'
+
+# Initialize Statosio
+statosio = Statosio::Generate.new
+
+# Load Sample Dataset
+url = 'https://d3.statosio.com/data/performance.json'
+content = URI.open( url ).read
+dataset = JSON.parse( content )
+
+# Generate Statosio
+chart = statosio.svg(
+    dataset: dataset,
+    x: 'name',
+    y: 'mobile',
+    options: {}
+)
+
+# Generate .pdf
+Prawn::Document.generate( "statosio.pdf" ) do | pdf |
+  pdf.svg( chart, width: 500, )
+end
+```
+
+## Options
 
 | | **Value** | **Type** | **Required** |
 |------:|:------|:------| :------|
@@ -55,25 +115,7 @@ chart.generate(
 | **silent** | ```true``` or ```false```| Boolean | no |
 
 
-## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'statosio'
-```
-
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install statosio
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Development
 

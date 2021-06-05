@@ -20439,8 +20439,8 @@ d3.statosio = ( file, x_key, y_keys, optional={} ) => {
     <script>
         d3.statosio( 
             dataset['data'], 
-            "<--x-->",
-            "<--y-->", 
+            '<--x-->',
+            <--y-->, 
             <--options-->
         )
     </script>
@@ -20467,7 +20467,7 @@ STATOSIOOOO
             when :y
                 value = @markers[ key ][:value].to_s
             when :options
-                value = JSON.pretty_generate( @markers[ key ][:value].to_s )
+                value = @markers[ key ][:value].to_json
             end
 
             @boilerplate.gsub!( @markers[ key ][:sub], value ) 
