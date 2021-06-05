@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["a6b8"]
   spec.email         = ["hello13plus4.com"]
 
-  spec.summary       = "Write a short summary, because RubyGems requires one."
-  spec.description   = "Write a longer description or delete this line."
+  spec.summary       = "Statosio generate charts in a .svg format."
+  spec.description   = "Statosio generate charts in a .svg format. Works with prawn-svg to generate .pdf documents."
   spec.homepage      = "https://d3.statoiso.com"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.4.0"
@@ -23,8 +23,15 @@ Gem::Specification.new do |spec|
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
-    `git ls-files -z`.split("\x0").reject { |f| f.match(%r{\A(?:test|spec|features)/}) }
+    `git ls-files -z`.split("\x0").reject { |f| 
+      puts f
+      puts f.match(%r{\A(?:test|spec|features)/})
+      puts '___'
+      f.match(%r{\A(?:test|spec|features)/}) 
+    }
   end
+
+
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
