@@ -41,7 +41,6 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 
 
 ## Quickstart 
-
 ```ruby
 gem install 'statosio'
 gem install 'open-uri'
@@ -72,6 +71,8 @@ chart = statosio.svg(
 puts chart
 # -> <svg>[]....</svg>
 ```
+
+> The render process is based on ```puppeteer-ruby```. You may need to have puppeteer installed. Find more Informations [here](https://github.com/YusukeIwaki/puppeteer-ruby#whale-running-in-docker).
 
 
 ## ```Statosio``` with  ```prawn```
