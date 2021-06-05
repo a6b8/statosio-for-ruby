@@ -1,14 +1,20 @@
-# statosio.rb
+<img src="https://github.com/a6b8/statosio.rb/blob/main/assets/statosio.rb.png?raw=true" width="300">
 
 ## Usage
 Statosio.rb is based on [statosio.js](https://github.com/a6b8/statosio.js) and helps to generate simple charts, in a fast and reliable way.
 
-Statosio output charts in the ```.svg``` format. Optimized for usage with [prawn-svg](https://github.com/mogest/prawn-svg) to generate documents in ```.pdf```. All Charts Data can be searched no information get lost.
-
+Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://github.com/mogest/prawn-svg) to generate ```.pdf``` documents. All Charts Data can be searched no information get lost.
 
 ✔️ build simple diagrams fast and reliable, with one function!<br>
 ✔️ pure javascript, no additonal css.<br>
 ✔️ highly customizable with 40+ style and data options.<br>
+
+
+**Video Introduction:**
+[https://www.youtube.com/watch?v=i6od9O8jz1E](https://www.youtube.com/watch?v=i6od9O8jz1E)
+
+**Documentation:** 
+[https://d3.statosio.com](https://d3.statosio.com/)
 
 
 ## Chart Types
@@ -165,7 +171,7 @@ end
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/statosio. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/a6b8/statosio/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/statosio.rb. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/a6b8/statosio/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
