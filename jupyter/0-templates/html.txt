@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+<style>
+body {background-color: green}
+* {
+  margin: 0;
+  padding: 0;
+}
+</style>
+    <script>
+    <--d3-->
+    </script>
+    <script>
+    <--statosio-->
+    </script>
+    <script>var dataset=<--dataset-->
+    </script>
+</head>
+<body>
+    <script>
+        d3.statosio( 
+            dataset['data'], 
+            "<--x-->",
+            "<--y-->", 
+            <--params-->
+        )
+    </script>
+</body>
