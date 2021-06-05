@@ -14,8 +14,8 @@ class Boilerplate
                 sub: "<--y-->",
                 value: nil
             },
-            params: {
-                sub: '<--params-->',
+            options: {
+                sub: '<--options-->',
                 value: {}
             }
         }
@@ -20441,17 +20441,19 @@ d3.statosio = ( file, x_key, y_keys, optional={} ) => {
             dataset['data'], 
             "<--x-->",
             "<--y-->", 
-            <--params-->
+            <--options-->
         )
     </script>
 </body>
 STATOSIOOOO
-        @params_allow_list = set_params_allow_list()
+        @options_allow_list = set_options_allow_list()
     end
+
 
     def get_boilerplate_raw
         @boilerplate_raw
     end
+
 
     def set_boilerplate
         @boilerplate = @boilerplate_raw.clone
@@ -20464,7 +20466,7 @@ STATOSIOOOO
                 value = @markers[ key ][:value].to_s
             when :y
                 value = @markers[ key ][:value].to_s
-            when :params
+            when :options
                 value = JSON.pretty_generate( @markers[ key ][:value].to_s )
             end
 
@@ -20472,13 +20474,16 @@ STATOSIOOOO
         end
     end
 
+
     def get_boilerplate
         @boilerplate
     end
 
+
     def get_markers
         @markers
     end
+
 
     def set_markers_value( _values )
         _values.keys.each do | key |
@@ -20486,7 +20491,8 @@ STATOSIOOOO
         end
     end
 
-    def set_params_allow_list
+
+    def set_options_allow_list
         g = {
             start: 'let default_values = ',
             end: 'const params_create'
@@ -20501,7 +20507,7 @@ STATOSIOOOO
             .split( "\n" )
             .map { | ss | ss.include?( '//' ) ? ss[ 0, ss.index( '//' )] : ss }
             .join()
-        params = JSON.parse( tmp )
+        options = JSON.parse( tmp )
         
         keys = {
             alias: [],
@@ -20509,47 +20515,45 @@ STATOSIOOOO
             allow_list: []
         }
         
-        
-        params.keys.each do | lvl1 |
-            if params[ lvl1 ].class.to_s == 'Hash'
-            params[ lvl1 ].keys.each do | lvl2 |
-                if params[ lvl1 ][ lvl2 ].class.to_s == 'Hash'
-                params[ lvl1 ][ lvl2 ].keys.each do | lvl3 |
-                    if params[ lvl1 ][ lvl2 ][ lvl3 ].class.to_s == 'Hash'
-                    params[ lvl1 ][ lvl2 ][ lvl3 ].keys.each do | lvl4 |
-                        if !params[ lvl1 ][ lvl2 ][ lvl3 ][ lvl4 ].nil?
-                        keys[:alias].push( lvl1.to_s + '__' + lvl2.to_s + '__' + lvl3.to_s + '__' + lvl4.to_s )
+        options.keys.each do | lvl1 |
+            if options[ lvl1 ].class.to_s == 'Hash'
+                options[ lvl1 ].keys.each do | lvl2 |
+                    if options[ lvl1 ][ lvl2 ].class.to_s == 'Hash'
+                        options[ lvl1 ][ lvl2 ].keys.each do | lvl3 |
+                            if options[ lvl1 ][ lvl2 ][ lvl3 ].class.to_s == 'Hash'
+                                options[ lvl1 ][ lvl2 ][ lvl3 ].keys.each do | lvl4 |
+                                    if !options[ lvl1 ][ lvl2 ][ lvl3 ][ lvl4 ].nil?
+                                        keys[:alias].push( lvl1.to_s + '__' + lvl2.to_s + '__' + lvl3.to_s + '__' + lvl4.to_s )
+                                    end
+                                end
+                            else
+                                if !options[ lvl1 ][ lvl2 ][ lvl3 ].nil?
+                                    keys[:alias].push( lvl1.to_s + '__' + lvl2.to_s + '__' + lvl3.to_s )
+                                end
+                            end
+                        end
+                    else
+                        if !options[ lvl1 ][ lvl2 ].nil?
+                            keys[:alias].push( lvl1.to_s + '__' + lvl2.to_s )
                         end
                     end
-                    else
-                    if !params[ lvl1 ][ lvl2 ][ lvl3 ].nil?
-                        keys[:alias].push( lvl1.to_s + '__' + lvl2.to_s + '__' + lvl3.to_s )
-                    end
-                    end
                 end
-                else
-                if !params[ lvl1 ][ lvl2 ].nil?
-                    keys[:alias].push( lvl1.to_s + '__' + lvl2.to_s )
-                end
-                end
-            end
             else
-            if !params[ lvl1 ].nil?
-                keys[:alias].push( lvl1.to_s )
-            end
+                if !options[ lvl1 ].nil?
+                    keys[:alias].push( lvl1.to_s )
+                end
             end
         end
         
-        
         keys[:alias].each do | key | 
             tmp = key
-            .gsub('__', '_')
-            .split('_')
+                .gsub('__', '_')
+                .split('_')
             one = tmp[ 0 ]
             two = tmp
-            .drop(1)
-            .map { | d | d[ 0, 1 ].upcase + d[ 1, d.length] }
-            .join()
+                .drop(1)
+                .map { | d | d[ 0, 1 ].upcase + d[ 1, d.length] }
+                .join()
             keys[:camel_case].push( one + two )
         end
         

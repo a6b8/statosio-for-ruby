@@ -8,21 +8,21 @@ module Statosio
 
 
   class Generate < Boilerplate
-    def svg( dataset: nil, x: nil, y: nil, params: nil, silent: false )
-      valid = values_validation( dataset: dataset, x: x, y: y, params: params, allow_list: @params_allow_list, silent: silent )
+    def svg( dataset: nil, x: nil, y: nil, options: nil, silent: false )
+      valid = values_validation( dataset: dataset, x: x, y: y, options: options, allow_list: @options_allow_list, silent: silent )
       if valid
         values = {}
         values[:dataset] = dataset
         values[:x] = x
         values[:y] = y
-        values[:params] = params
+        values[:options] = options
         render_svg( values )
       end
     end
 
 
-    def get_params_allow_list
-      @params_allow_list
+    def get_options_allow_list
+      @options_allow_list
     end
 
 
@@ -50,15 +50,8 @@ module Statosio
       return svg
     end
 
-
-    def generate_png( values )
-      
-    end
-
-
-    private
-
-    def values_validation( dataset: nil, x: nil, y: nil, params: nil, allow_list: nil, silent: false )  
+    
+    def values_validation( dataset: nil, x: nil, y: nil, options: nil, allow_list: nil, silent: false )  
       def check_dataset( dataset, messages, errors )
         if !dataset.nil?
           if dataset.class.to_s == 'Array'
@@ -116,7 +109,7 @@ module Statosio
       end 
     
     
-      def check_params( params, messages, allow_list, errors )
+      def check_options( options, messages, allow_list, errors )
         def str_difference( a, b )
           a = a.to_s.downcase.split( '_' ).join( '' )
           b = b.to_s.downcase.split( '_' ).join( '' )
@@ -130,26 +123,26 @@ module Statosio
         end
     
     
-        if !params.nil?
-          if params.class.to_s == 'Hash'
-            params.keys.each do | key |
+        if !options.nil?
+          if options.class.to_s == 'Hash'
+            options.keys.each do | key |
               if allow_list.include?( key.to_s )
               else
-                tmp = messages[:params][ 2 ][ 0 ]
+                tmp = messages[:options][ 2 ][ 0 ]
                 tmp = tmp.gsub( '<--key-->', key.to_s)
     
                 nearest = allow_list
                   .map { | word | { score: str_difference( key, word ), word: word } }
                   .min_by { | item | item[:score] }
                 tmp = tmp.gsub( '<--similar-->', nearest[:word] )
-                errors.push( [ tmp, messages[:params][ 2 ][ 1 ] ] )
+                errors.push( [ tmp, messages[:options][ 2 ][ 1 ] ] )
               end
             end
           else
-            errors.push( messages[:params][ 1 ] )
+            errors.push( messages[:options][ 1 ] )
           end
         else
-          errors.push( messages[:params][ 0 ] )
+          errors.push( messages[:options][ 0 ] )
         end
     
         return errors
@@ -182,10 +175,10 @@ module Statosio
           [ "y:\t\t is empty. Expect: \"String\"", :y0 ],
           [ "y:\t\t is not Class \"String\"", :y1 ]
         ],
-        params: [
-          [ "params:\t is empty. Expect: \"Hash\"", :p0 ],
-          [ "params:\t is not Class \"Hash\"", :p1 ],
-          [ "params:\t key: \"<--key-->\" is not a valid parameter, did you mean: \"<--similar-->\"? For more Information visit: https://docs.statosio.com/options/<--similar-->", :p2 ]
+        options: [
+          [ "options:\t is empty. Expect: \"Hash\"", :p0 ],
+          [ "options:\t is not Class \"Hash\"", :p1 ],
+          [ "options:\t key: \"<--key-->\" is not a valid parameter, did you mean: \"<--similar-->\"? For more Information visit: https://docs.statosio.com/options/<--similar-->", :p2 ]
         ],
         silent: [
           [ "silent:\t is not Class \"Hash\"", :s0 ]
@@ -196,7 +189,7 @@ module Statosio
       errors = check_dataset( dataset, messages, errors )
       errors = check_y( y, messages, errors )
       errors = check_x( x, messages, errors )
-      errors = check_params( params, messages, allow_list, errors )
+      errors = check_options( options, messages, allow_list, errors )
       errors = check_silent( silent, messages, errors )
     
       if silent == false

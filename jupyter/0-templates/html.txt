@@ -24,7 +24,7 @@ body {background-color: green}
             dataset['data'], 
             "<--x-->",
             "<--y-->", 
-            <--params-->
+            <--options-->
         )
     </script>
 </body>
