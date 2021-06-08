@@ -75,7 +75,7 @@ puts chart
 > The render process is based on ```puppeteer-ruby```. You may need to have puppeteer installed. Find more Informations [here](https://github.com/YusukeIwaki/puppeteer-ruby#whale-running-in-docker).
 
 
-## ```Statosio``` with  ```prawn```
+## ```Statosio``` with  [prawn](https://github.com/prawnpdf/prawn)
 ```ruby
 gem install 'statosio'
 gem install 'prawn'
