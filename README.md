@@ -1,4 +1,4 @@
-<img src="https://github.com/a6b8/statosio.rb/blob/main/assets/statosio.rb.png?raw=true" width="300">
+<img src="https://github.com/a6b8/a6b8/blob/main/docs/statosio-for-ruby/readme/statosio-for-ruby-headline.png" height="70" />
 
 ## Usage
 Statosio.rb is based on [statosio.js](https://github.com/a6b8/statosio.js) and helps to generate simple charts, in a fast and reliable way.
