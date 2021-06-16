@@ -16,6 +16,8 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 **Documentation:** 
 [https://d3.statosio.com](https://d3.statosio.com/)
 
+**Code Generator**
+[http://statosio-sandbox.herokuapp.com/code-generator/index.html](http://statosio-sandbox.herokuapp.com/code-generator/index.html)
 
 ## Chart Types
 ### Bar
