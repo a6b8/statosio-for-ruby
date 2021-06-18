@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/statosio-for-ruby.svg" height="40px" banner="Statosio for Ruby">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/statosio-for-ruby.svg" height="55px" banner="Statosio for Ruby">
 
 ## Usage
 Statosio.rb is based on [statosio.js](https://github.com/a6b8/statosio.js) and helps to generate simple charts, in a fast and reliable way.
@@ -18,10 +18,10 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 
 **Code Generator**
 [http://statosio-sandbox.herokuapp.com/code-generator/index.html](http://statosio-sandbox.herokuapp.com/code-generator/index.html)
-
-
-
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/chart-types.svg" height="40px" banner="Chart Types">
+<br>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/chart-types.svg" height="55px" banner="Chart Types">
 
 ### Bar
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-bar-400.jpg)<br>
@@ -32,10 +32,10 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 ### Stacked
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-stacked-bar-400.jpg)<br>
 [Create simple stacked bar chart](https://d3.statosio.com/tutorials/simple-stacked-bar-chart.html)
-
-
-
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/features.svg" height="40px" banner="Features">
+<br>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/features.svg" height="55px" banner="Features">
 
 ### Select
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-select-400.jpg)<br>
@@ -46,10 +46,10 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 ### Change Style
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-customize-400.jpg)<br>
 [Change style to dark-mode](https://d3.statosio.com/tutorials/change-style.html)
-
-
-
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/quickstart.svg" height="40px" banner="Quickstart">
+<br>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/quickstart.svg" height="55px" banner="Quickstart">
 
 ```ruby
 gem install 'statosio'
@@ -120,10 +120,10 @@ Prawn::Document.generate( "statosio.pdf" ) do | pdf |
   pdf.svg( chart, width: 500, )
 end
 ```
-
-
-
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/parameters.svg" height="40px" banner="Parameters">
+<br>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/parameters.svg" height="55px" banner="Parameters">
 
 | | **Value** | **Type** | **Required** |
 |------:|:------|:------| :------|
@@ -132,10 +132,10 @@ end
 | **y** | ```"mobile"```, ```[ "mobile",... ]``` | String or Array of Strings | yes |
 | **options** | ```{}``` | Hash | yes |
 | **silent** | ```true``` or ```false```| Boolean | no |
-
-
-
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/options.svg" height="40px" banner="Options">
+<br>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/options.svg" height="55px" banner="Options">
 
 |   | **Option** | **Default** | **Examples** | **Description** |
 |:--|:--|:--|:--|:--|
