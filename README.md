@@ -20,6 +20,7 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 [http://statosio-sandbox.herokuapp.com/code-generator/index.html](http://statosio-sandbox.herokuapp.com/code-generator/index.html)
 
 
+
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/chart-types.svg" height="60px" banner="Chart Types">
 
 ### Bar
@@ -33,6 +34,7 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 [Create simple stacked bar chart](https://d3.statosio.com/tutorials/simple-stacked-bar-chart.html)
 
 
+
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/features.svg" height="60px" banner="Features">
 
 ### Select
@@ -44,6 +46,7 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 ### Change Style
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-customize-400.jpg)<br>
 [Change style to dark-mode](https://d3.statosio.com/tutorials/change-style.html)
+
 
 
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/quickstart.svg" height="60px" banner="Quickstart">
@@ -118,6 +121,8 @@ Prawn::Document.generate( "statosio.pdf" ) do | pdf |
 end
 ```
 
+
+
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/parameters.svg" height="60px" banner="Parameters">
 
 | | **Value** | **Type** | **Required** |
@@ -128,7 +133,7 @@ end
 | **options** | ```{}``` | Hash | yes |
 | **silent** | ```true``` or ```false```| Boolean | no |
 
-<br>
+
 
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/options.svg" height="60px" banner="Options">
 
