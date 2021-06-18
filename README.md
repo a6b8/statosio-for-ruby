@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/statosio-for-ruby.svg" height="60px" banner="Statosio for Ruby">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/74a976c6483501bc99d3a0a0ed30ef1cf655235c/docs/statosio-for-ruby/readme/headlines/statosio-for-ruby.svg" height="60px" banner="Statosio for Ruby">
 
 ## Usage
 Statosio.rb is based on [statosio.js](https://github.com/a6b8/statosio.js) and helps to generate simple charts, in a fast and reliable way.
