@@ -19,7 +19,9 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 **Code Generator**
 [http://statosio-sandbox.herokuapp.com/code-generator/index.html](http://statosio-sandbox.herokuapp.com/code-generator/index.html)
 
+
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/chart-types.svg" height="60px" banner="Chart Types">
+
 ### Bar
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-bar-400.jpg)<br>
 [Create simple bar chart](https://d3.statosio.com/tutorials/simple-bar-chart.html)
@@ -30,7 +32,9 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-stacked-bar-400.jpg)<br>
 [Create simple stacked bar chart](https://d3.statosio.com/tutorials/simple-stacked-bar-chart.html)
 
+
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/features.svg" height="60px" banner="Features">
+
 ### Select
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-select-400.jpg)<br>
 [Select and change position of columns](https://d3.statosio.com/tutorials/select-data.html)
@@ -43,6 +47,7 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 
 
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/quickstart.svg" height="60px" banner="Quickstart">
+
 ```ruby
 gem install 'statosio'
 gem install 'open-uri'
