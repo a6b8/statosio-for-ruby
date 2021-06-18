@@ -1,4 +1,4 @@
-<img src="https://github.com/a6b8/a6b8/blob/main/docs/statosio-for-ruby/readme/statosio-for-ruby-headline.png" height="70" />
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/statosio-for-ruby.svg" height="60px" banner="Statosio for Ruby">
 
 ## Usage
 Statosio.rb is based on [statosio.js](https://github.com/a6b8/statosio.js) and helps to generate simple charts, in a fast and reliable way.
@@ -19,7 +19,7 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 **Code Generator**
 [http://statosio-sandbox.herokuapp.com/code-generator/index.html](http://statosio-sandbox.herokuapp.com/code-generator/index.html)
 
-## Chart Types
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/chart-types.svg" height="60px" banner="Chart Types">
 ### Bar
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-bar-400.jpg)<br>
 [Create simple bar chart](https://d3.statosio.com/tutorials/simple-bar-chart.html)
@@ -30,7 +30,7 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-stacked-bar-400.jpg)<br>
 [Create simple stacked bar chart](https://d3.statosio.com/tutorials/simple-stacked-bar-chart.html)
 
-## Features
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/features.svg" height="60px" banner="Features">
 ### Select
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-select-400.jpg)<br>
 [Select and change position of columns](https://d3.statosio.com/tutorials/select-data.html)
@@ -42,7 +42,7 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 [Change style to dark-mode](https://d3.statosio.com/tutorials/change-style.html)
 
 
-## Quickstart 
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/quickstart.svg" height="60px" banner="Quickstart">
 ```ruby
 gem install 'statosio'
 gem install 'open-uri'
@@ -77,7 +77,7 @@ puts chart
 > The render process is based on ```puppeteer-ruby```. You may need to have puppeteer installed. Find more Informations [here](https://github.com/YusukeIwaki/puppeteer-ruby#whale-running-in-docker).
 
 
-## ```Statosio``` with  [prawn](https://github.com/prawnpdf/prawn)
+### ```Statosio``` with  [prawn](https://github.com/prawnpdf/prawn)
 ```ruby
 gem install 'statosio'
 gem install 'prawn'
@@ -113,7 +113,7 @@ Prawn::Document.generate( "statosio.pdf" ) do | pdf |
 end
 ```
 
-## Parameters
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/parameters.svg" height="60px" banner="Parameters">
 
 | | **Value** | **Type** | **Required** |
 |------:|:------|:------| :------|
@@ -125,8 +125,7 @@ end
 
 <br>
 
-## Options
-
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/options.svg" height="60px" banner="Options">
 
 |   | **Option** | **Default** | **Examples** | **Description** |
 |:--|:--|:--|:--|:--|
