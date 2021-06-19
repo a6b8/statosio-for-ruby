@@ -7,16 +7,18 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 ✔️ build simple diagrams fast and reliable, with one function!<br>
 ✔️ pure javascript, no additonal css.<br>
 ✔️ highly customizable with 40+ style and data options.<br>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/demo.svg" height="55px" alt="Demo">
 
+**Code Generator**
+[http://statosio-sandbox.herokuapp.com/code-generator/index.html](http://statosio-sandbox.herokuapp.com/code-generator/index.html)
 
 **Video Introduction:**
 [https://www.youtube.com/watch?v=i6od9O8jz1E](https://www.youtube.com/watch?v=i6od9O8jz1E)
 
 **Documentation:** 
 [https://d3.statosio.com](https://d3.statosio.com/)
-
-**Code Generator**
-[http://statosio-sandbox.herokuapp.com/code-generator/index.html](http://statosio-sandbox.herokuapp.com/code-generator/index.html)
 <br>
 <br>
 <br>
