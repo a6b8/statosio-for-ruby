@@ -10,16 +10,17 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 <br>
 <br>
 <br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/demo.svg" height="55px" alt="Demo">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/examples.svg" height="55px" alt="Examples">
 
-**Code Generator**
-[http://statosio-sandbox.herokuapp.com/code-generator/index.html](http://statosio-sandbox.herokuapp.com/code-generator/index.html)
-
-**Video Introduction:**
-[https://www.youtube.com/watch?v=i6od9O8jz1E](https://www.youtube.com/watch?v=i6od9O8jz1E)
-
-**Documentation:** 
-[https://d3.statosio.com](https://d3.statosio.com/)
+### Select
+![# d3.statosio](https://d3.statosio.com/assets/images/example-select-400.jpg)<br>
+[Select and change position of columns](https://d3.statosio.com/tutorials/select-data.html)
+### Sort Data
+![# d3.statosio](https://d3.statosio.com/assets/images/example-sort-400.jpg)<br>
+[Sort dataset by values](https://d3.statosio.com/tutorials/sort-data.html)
+### Change Style
+![# d3.statosio](https://d3.statosio.com/assets/images/example-customize-400.jpg)<br>
+[Change style to dark-mode](https://d3.statosio.com/tutorials/change-style.html)
 <br>
 <br>
 <br>
@@ -34,20 +35,6 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 ### Stacked
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-stacked-bar-400.jpg)<br>
 [Create simple stacked bar chart](https://d3.statosio.com/tutorials/simple-stacked-bar-chart.html)
-<br>
-<br>
-<br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/features.svg" height="55px" alt="Features">
-
-### Select
-![# d3.statosio](https://d3.statosio.com/assets/images/example-select-400.jpg)<br>
-[Select and change position of columns](https://d3.statosio.com/tutorials/select-data.html)
-### Sort Data
-![# d3.statosio](https://d3.statosio.com/assets/images/example-sort-400.jpg)<br>
-[Sort dataset by values](https://d3.statosio.com/tutorials/sort-data.html)
-### Change Style
-![# d3.statosio](https://d3.statosio.com/assets/images/example-customize-400.jpg)<br>
-[Change style to dark-mode](https://d3.statosio.com/tutorials/change-style.html)
 <br>
 <br>
 <br>
@@ -122,6 +109,19 @@ Prawn::Document.generate( "statosio.pdf" ) do | pdf |
   pdf.svg( chart, width: 500, )
 end
 ```
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/code-generator.svg" height="55px" alt="Code Generator">
+
+**Code Generator**
+[http://statosio-sandbox.herokuapp.com/code-generator/index.html](http://statosio-sandbox.herokuapp.com/code-generator/index.html)
+
+**Video Introduction:**
+[https://www.youtube.com/watch?v=i6od9O8jz1E](https://www.youtube.com/watch?v=i6od9O8jz1E)
+
+**Documentation:** 
+[https://d3.statosio.com](https://d3.statosio.com/)
+<br>
 <br>
 <br>
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/parameters.svg" height="55px" alt="Parameters">
