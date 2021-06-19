@@ -203,7 +203,6 @@ The gem is available as open source under the terms of the [MIT License](https:/
 Everyone interacting in the Statosio project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/a6b8/statosio/blob/master/CODE_OF_CONDUCT.md).
 <br>
 <br>
-<br>   
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/support-my-work.svg" height="55px" alt="Support my Work">
     
 Donate by [https://www.paypal.com](https://www.paypal.com/donate?hosted_button_id=XKYLQ9FBGC4RG)
