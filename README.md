@@ -9,6 +9,7 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 ✔️ highly customizable with 40+ style and data options.<br>
 <br>
 <br>
+<br>
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/demo.svg" height="55px" alt="Demo">
 
 **Code Generator**
@@ -187,8 +188,11 @@ end
 Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/statosio.rb. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/a6b8/statosio/blob/master/CODE_OF_CONDUCT.md).
 <br>
 <br>
+<br>
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/license.svg" height="55px" alt="License">
+
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+<br>
 <br>
 <br>
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/code-of-conduct.svg" height="55px" alt="Code of Conduct">
