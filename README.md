@@ -1,6 +1,4 @@
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/statosio-for-ruby.svg" height="55px" banner="Statosio for Ruby">
-
-## Usage
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/statosio-for-ruby.svg" height="55px" alt="Statosio for Ruby">
 Statosio.rb is based on [statosio.js](https://github.com/a6b8/statosio.js) and helps to generate simple charts, in a fast and reliable way.
 
 Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://github.com/mogest/prawn-svg) to generate ```.pdf``` documents. All Charts Data can be searched no information get lost.
@@ -21,7 +19,7 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 <br>
 <br>
 <br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/chart-types.svg" height="55px" banner="Chart Types">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/chart-types.svg" height="55px" alt="Chart Types">
 
 ### Bar
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-bar-400.jpg)<br>
@@ -35,7 +33,7 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 <br>
 <br>
 <br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/features.svg" height="55px" banner="Features">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/features.svg" height="55px" alt="Features">
 
 ### Select
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-select-400.jpg)<br>
@@ -49,7 +47,7 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 <br>
 <br>
 <br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/quickstart.svg" height="55px" banner="Quickstart">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/quickstart.svg" height="55px" alt="Quickstart">
 
 ```ruby
 gem install 'statosio'
@@ -122,8 +120,7 @@ end
 ```
 <br>
 <br>
-<br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/parameters.svg" height="55px" banner="Parameters">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/parameters.svg" height="55px" alt="Parameters">
 
 | | **Value** | **Type** | **Required** |
 |------:|:------|:------| :------|
@@ -134,8 +131,7 @@ end
 | **silent** | ```true``` or ```false```| Boolean | no |
 <br>
 <br>
-<br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/options.svg" height="55px" banner="Options">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/options.svg" height="55px" alt="Options">
 
 |   | **Option** | **Default** | **Examples** | **Description** |
 |:--|:--|:--|:--|:--|
@@ -181,14 +177,15 @@ end
 | D.15. | [styleOtherCircleChartRadius](https://d3.statosio.com/options/style__other__circle_chart_radius.html) | 4 | [A](https://d3.statosio.com/options/style__other__circle_chart_radius.html#example-a), [B](https://d3.statosio.com/options/style__other__circle_chart_radius.html#example-b) | Set radius of circle. |
 | D.16. | [styleOtherRangeXTextRotation](https://d3.statosio.com/options/style__other__range_x_text_rotation.html) | -45 | [A](https://d3.statosio.com/options/style__other__range_x_text_rotation.html#example-a), [B](https://d3.statosio.com/options/style__other__range_x_text_rotation.html#example-b) | Set text rotation of the x axis. |
 
-## Contributing
-
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/contributing.svg" height="55px" alt="Contributing">
 Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/statosio.rb. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/a6b8/statosio/blob/master/CODE_OF_CONDUCT.md).
-
-## License
-
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/license.svg" height="55px" alt="License">
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Code of Conduct
-
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/code-of-conduct.svg" height="55px" alt="Code of Conduct">
 Everyone interacting in the Statosio project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/a6b8/statosio/blob/master/CODE_OF_CONDUCT.md).
