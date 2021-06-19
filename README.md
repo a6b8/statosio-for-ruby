@@ -103,7 +103,7 @@ end
 <br>
 <br>
 <br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/documentation.svg" height="55px" alt="Doocumentation">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/documentation.svg" height="55px" alt="Documentation">
 
 [https://d3.statosio.com](https://d3.statosio.com/)
 <br>
