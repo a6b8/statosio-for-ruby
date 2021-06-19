@@ -8,6 +8,12 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 ✔️ pure javascript, no additonal css.<br>
 ✔️ highly customizable with 40+ style and data options.<br>
 <br>
+**Video Introduction:**
+[https://www.youtube.com/watch?v=i6od9O8jz1E](https://www.youtube.com/watch?v=i6od9O8jz1E)
+
+**Documentation:** 
+[https://d3.statosio.com](https://d3.statosio.com/)
+<br>
 <br>
 <br>
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/examples.svg" height="55px" alt="Examples">
@@ -21,20 +27,6 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 ### Change Style
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-customize-400.jpg)<br>
 [Change style to dark-mode](https://d3.statosio.com/tutorials/change-style.html)
-<br>
-<br>
-<br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/chart-types.svg" height="55px" alt="Chart Types">
-
-### Bar
-![# d3.statosio](https://d3.statosio.com/assets/images/example-bar-400.jpg)<br>
-[Create simple bar chart](https://d3.statosio.com/tutorials/simple-bar-chart.html)
-### Point
-![# d3.statosio](https://d3.statosio.com/assets/images/example-point-400.jpg)<br>
-[Create a simple point chart](https://d3.statosio.com/tutorials/simple-point-chart.html)
-### Stacked
-![# d3.statosio](https://d3.statosio.com/assets/images/example-stacked-bar-400.jpg)<br>
-[Create simple stacked bar chart](https://d3.statosio.com/tutorials/simple-stacked-bar-chart.html)
 <br>
 <br>
 <br>
@@ -115,12 +107,20 @@ end
 
 **Code Generator**
 [http://statosio-sandbox.herokuapp.com/code-generator/index.html](http://statosio-sandbox.herokuapp.com/code-generator/index.html)
+<br>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/chart-types.svg" height="55px" alt="Chart Types">
 
-**Video Introduction:**
-[https://www.youtube.com/watch?v=i6od9O8jz1E](https://www.youtube.com/watch?v=i6od9O8jz1E)
-
-**Documentation:** 
-[https://d3.statosio.com](https://d3.statosio.com/)
+### Bar
+![# d3.statosio](https://d3.statosio.com/assets/images/example-bar-400.jpg)<br>
+[Create simple bar chart](https://d3.statosio.com/tutorials/simple-bar-chart.html)
+### Point
+![# d3.statosio](https://d3.statosio.com/assets/images/example-point-400.jpg)<br>
+[Create a simple point chart](https://d3.statosio.com/tutorials/simple-point-chart.html)
+### Stacked
+![# d3.statosio](https://d3.statosio.com/assets/images/example-stacked-bar-400.jpg)<br>
+[Create simple stacked bar chart](https://d3.statosio.com/tutorials/simple-stacked-bar-chart.html)
 <br>
 <br>
 <br>
