@@ -201,4 +201,4 @@ Everyone interacting in the Statosio project's codebases, issue trackers, chat r
     
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/support-my-work.svg" height="55px" alt="Support my Work">
     
-Donate by [Paypal](https://www.paypal.com/donate?hosted_button_id=XKYLQ9FBGC4RG)
+Donate by [https://www.paypal.com](https://www.paypal.com/donate?hosted_button_id=XKYLQ9FBGC4RG)
