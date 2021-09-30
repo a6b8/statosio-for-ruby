@@ -43,7 +43,7 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/quickstart.svg" height="38px" alt="Quickstart">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/quickstart.svg" height="38px" alt="Quickstart" name="quickstart">
 </a>
 
 ```ruby
@@ -120,7 +120,7 @@ end
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/code-generator.svg" height="38px" alt="Code Generator">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/code-generator.svg" height="38px" alt="Code Generator" name="code-generator">
 </a>
 
 [http://statosio-sandbox.herokuapp.com/code-generator/index.html](http://statosio-sandbox.herokuapp.com/code-generator/index.html)
@@ -128,7 +128,7 @@ end
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/introduction.svg" height="38px" alt="Introduction">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/introduction.svg" height="38px" alt="Introduction" name="introduction">
 </a>
 
 [https://www.youtube.com/watch?v=i6od9O8jz1E](https://www.youtube.com/watch?v=i6od9O8jz1E)
@@ -136,7 +136,7 @@ end
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/documentation.svg" height="38px" alt="Documentation">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/documentation.svg" height="38px" alt="Documentation" name="documentation">
 </a>
 
 [https://d3.statosio.com](https://d3.statosio.com/)
@@ -144,7 +144,7 @@ end
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/chart-types.svg" height="38px" alt="Chart Types">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/chart-types.svg" height="38px" alt="Chart Types" name="chart types">
 </a>
 
 ✔️ build simple diagrams fast and reliable, with one function!<br>
@@ -164,7 +164,7 @@ end
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/parameters.svg" height="38px" alt="Parameters">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/parameters.svg" height="38px" alt="Parameters" name="parameters">
 </a>
 
 | | **Value** | **Type** | **Required** |
@@ -225,7 +225,7 @@ end
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/contributing.svg" height="38px" alt="Contributing">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/contributing.svg" height="38px" alt="Contributing" name="contributing">
 </a>
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/statosio.rb. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/a6b8/statosio/blob/master/CODE_OF_CONDUCT.md).
@@ -233,7 +233,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/s
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/license.svg" height="38px" alt="License">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/license.svg" height="38px" alt="License" name="license">
 </a>
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
@@ -241,7 +241,7 @@ The gem is available as open source under the terms of the [MIT License](https:/
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/code-of-conduct.svg" height="38px" alt="Code of Conduct">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/code-of-conduct.svg" height="38px" alt="Code of Conduct" name="code-of-conduct">
 </a>
     
 Everyone interacting in the Statosio project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/a6b8/statosio/blob/master/CODE_OF_CONDUCT.md).
@@ -249,7 +249,7 @@ Everyone interacting in the Statosio project's codebases, issue trackers, chat r
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/support-my-work.svg" height="38px" alt="Support my Work">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/support-my-work.svg" height="38px" alt="Support my Work" name="support-my-work">
 </a>
     
 Donate by [https://www.paypal.com](https://www.paypal.com/donate?hosted_button_id=XKYLQ9FBGC4RG)
