@@ -35,7 +35,7 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 1. [Chart Types](#chart-types)<br>
 1. [Parameters](#parameters)<br>
 1. [Options](#options)
-1. [Contribution](#contribution)
+1. [Contributing](#contributing)
 1. [License](#license)<br>
 1. [Code of Conduct](#code-of-conduct)<br>
 1.  [Support my Work](#support-my-work)<br>
