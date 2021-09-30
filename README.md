@@ -7,7 +7,7 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/examples.svg" height="38px" alt="Examples">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/examples.svg" height="38px" alt="Examples" name="examples">
 </a>
 
 ### Select
