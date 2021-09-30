@@ -28,15 +28,19 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 <br>
 
 1. [Examples](#examples)<br>
-2. [Quickstart](#quickstart)<br>
-3. [Setup](#setup)
-4. [Methods](#methods)<br>
-5. [Options](#options)<br>
-6. [Contributing](#contributing)<br>
-7. [Limitations](#limitations)<br>
-8. [License](#license)<br>
-9. [Code of Conduct](#code-of-conduct)<br>
-10. [Support my Work](#support-my-work)<br>
+1. [Quickstart](#quickstart)<br>
+1. [Code Generator](#code-generator)
+1. [Introduction](#introduction)<br>
+1. [Documentation](#documentation)<br>
+1. [Chart Types](#chart-types)<br>
+1. [Parameters](#parameters)<br>
+1. [Options](#options)
+1. [Contribution](#contribution)
+1. [License](#license)<br>
+1. [Code of Conduct](#code-of-conduct)<br>
+1.  [Support my Work](#support-my-work)<br>
+
+<br>
 
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/quickstart.svg" height="38px" alt="Quickstart">
