@@ -1,5 +1,5 @@
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/statosio-for-ruby.svg" height="45px" alt="# Statosio for Ruby">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/statosio-for-ruby.svg" height="45px" alt="# Statosio for Ruby" name="headline">
 </a>
 
 Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://github.com/mogest/prawn-svg) to generate ```.pdf``` documents. 
@@ -21,6 +21,22 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 [Change style to dark-mode](https://d3.statosio.com/tutorials/change-style.html)
 
 <br>
+
+<a href="#headline">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/table-of-contents.svg" height="38px" name="table-of-contents" alt="Table of Contents">
+</a>
+<br>
+
+1. [Examples](#examples)<br>
+2. [Quickstart](#quickstart)<br>
+3. [Setup](#setup)
+4. [Methods](#methods)<br>
+5. [Options](#options)<br>
+6. [Contributing](#contributing)<br>
+7. [Limitations](#limitations)<br>
+8. [License](#license)<br>
+9. [Code of Conduct](#code-of-conduct)<br>
+10. [Support my Work](#support-my-work)<br>
 
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/quickstart.svg" height="38px" alt="Quickstart">
