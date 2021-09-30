@@ -144,7 +144,7 @@ end
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/chart-types.svg" height="38px" alt="Chart Types" name="chart types">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/chart-types.svg" height="38px" alt="Chart Types" name="chart-types">
 </a>
 
 ✔️ build simple diagrams fast and reliable, with one function!<br>
