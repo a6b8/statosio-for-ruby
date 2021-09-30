@@ -174,9 +174,12 @@ end
 | **y** | ```"mobile"```, ```[ "mobile",... ]``` | String or Array of Strings | yes |
 | **options** | ```{}``` | Hash | yes |
 | **silent** | ```true``` or ```false```| Boolean | no |
+
 <br>
-<br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/options.svg" height="38px" alt="Options">
+
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/options.svg" height="38px" alt="Options" name="options">
+</a>
 
 |   | **Option** | **Default** | **Examples** | **Description** |
 |:--|:--|:--|:--|:--|
