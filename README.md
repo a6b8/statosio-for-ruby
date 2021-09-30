@@ -1,10 +1,14 @@
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/statosio-for-ruby.svg" height="55px" alt="# Statosio for Ruby">
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/statosio-for-ruby.svg" height="45px" alt="# Statosio for Ruby">
+</a>
 
 Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://github.com/mogest/prawn-svg) to generate ```.pdf``` documents. 
+
 <br>
-<br>
-<br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/examples.svg" height="55px" alt="Examples">
+
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/examples.svg" height="38px" alt="Examples">
+</a>
 
 ### Select
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-select-400.jpg)<br>
@@ -15,10 +19,12 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 ### Change Style
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-customize-400.jpg)<br>
 [Change style to dark-mode](https://d3.statosio.com/tutorials/change-style.html)
+
 <br>
-<br>
-<br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/quickstart.svg" height="55px" alt="Quickstart">
+
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/quickstart.svg" height="38px" alt="Quickstart">
+</a>
 
 ```ruby
 gem install 'statosio'
@@ -53,6 +59,7 @@ puts chart
 
 > The render process is based on ```puppeteer-ruby```. You may need to have puppeteer installed. Find more Informations [here](https://github.com/YusukeIwaki/puppeteer-ruby#whale-running-in-docker).
 
+<br>
 
 ### ```Statosio``` with  [prawn](https://github.com/prawnpdf/prawn)
 ```ruby
@@ -89,27 +96,36 @@ Prawn::Document.generate( "statosio.pdf" ) do | pdf |
   pdf.svg( chart, width: 500, )
 end
 ```
+
 <br>
-<br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/code-generator.svg" height="55px" alt="Code Generator">
+
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/code-generator.svg" height="38px" alt="Code Generator">
+</a>
 
 [http://statosio-sandbox.herokuapp.com/code-generator/index.html](http://statosio-sandbox.herokuapp.com/code-generator/index.html)
+
 <br>
-<br>
-<br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/introduction.svg" height="55px" alt="Introduction">
+
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/introduction.svg" height="38px" alt="Introduction">
+</a>
 
 [https://www.youtube.com/watch?v=i6od9O8jz1E](https://www.youtube.com/watch?v=i6od9O8jz1E)
+
 <br>
-<br>
-<br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/documentation.svg" height="55px" alt="Doocumentation">
+
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/documentation.svg" height="38px" alt="Documentation">
+</a>
 
 [https://d3.statosio.com](https://d3.statosio.com/)
+
 <br>
-<br>
-<br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/chart-types.svg" height="55px" alt="Chart Types">
+
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/chart-types.svg" height="38px" alt="Chart Types">
+</a>
 
 ✔️ build simple diagrams fast and reliable, with one function!<br>
 ✔️ pure javascript, no additonal css.<br>
@@ -124,10 +140,12 @@ end
 ### Stacked
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-stacked-bar-400.jpg)<br>
 [Create simple stacked bar chart](https://d3.statosio.com/tutorials/simple-stacked-bar-chart.html)
+
 <br>
-<br>
-<br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/parameters.svg" height="55px" alt="Parameters">
+
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/parameters.svg" height="38px" alt="Parameters">
+</a>
 
 | | **Value** | **Type** | **Required** |
 |------:|:------|:------| :------|
@@ -138,7 +156,7 @@ end
 | **silent** | ```true``` or ```false```| Boolean | no |
 <br>
 <br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/options.svg" height="55px" alt="Options">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/options.svg" height="38px" alt="Options">
 
 |   | **Option** | **Default** | **Examples** | **Description** |
 |:--|:--|:--|:--|:--|
@@ -185,24 +203,33 @@ end
 | D.16. | [styleOtherRangeXTextRotation](https://d3.statosio.com/options/style__other__range_x_text_rotation.html) | -45 | [A](https://d3.statosio.com/options/style__other__range_x_text_rotation.html#example-a), [B](https://d3.statosio.com/options/style__other__range_x_text_rotation.html#example-b) | Set text rotation of the x axis. |
 
 <br>
-<br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/contributing.svg" height="55px" alt="Contributing">
+
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/contributing.svg" height="38px" alt="Contributing">
+</a>
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/statosio.rb. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/a6b8/statosio/blob/master/CODE_OF_CONDUCT.md).
+
 <br>
-<br>
-<br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/license.svg" height="55px" alt="License">
+
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/license.svg" height="38px" alt="License">
+</a>
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
 <br>
-<br>
-<br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/code-of-conduct.svg" height="55px" alt="Code of Conduct">
+
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/code-of-conduct.svg" height="38px" alt="Code of Conduct">
+</a>
     
 Everyone interacting in the Statosio project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/a6b8/statosio/blob/master/CODE_OF_CONDUCT.md).
+
 <br>
-<br>
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/support-my-work.svg" height="55px" alt="Support my Work">
+
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/support-my-work.svg" height="38px" alt="Support my Work">
+</a>
     
 Donate by [https://www.paypal.com](https://www.paypal.com/donate?hosted_button_id=XKYLQ9FBGC4RG)
