@@ -77,7 +77,9 @@ puts chart
 # -> <svg>[]....</svg>
 ```
 
-> The render process is based on ```puppeteer-ruby```. You may need to have puppeteer installed. Find more Informations [here](https://github.com/YusukeIwaki/puppeteer-ruby#whale-running-in-docker).
+> The render process is based on ```puppeteer-ruby```. You may need to have puppeteer installed. Find more Informations [here](https://github.com/YusukeIwaki/puppeteer-ruby#whale-running-in-docker). 
+> 
+> Also note that there is an other gem called ```puppeteer``` it causes namespace conflict with the gem above. You need to deinstall before.
 
 <br>
 
