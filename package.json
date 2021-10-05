@@ -1,0 +1,23 @@
+{
+  "name": "0-statosio-ruby",
+  "version": "1.0.0",
+  "description": "<a href=\"#table-of-contents\"> <img src=\"https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/statosio-for-ruby.svg\" height=\"45px\" alt=\"# Statosio for Ruby\" name=\"headline\"> </a>",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a6b8/statosio.rb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a6b8/statosio.rb/issues"
+  },
+  "homepage": "https://github.com/a6b8/statosio.rb#readme"
+}

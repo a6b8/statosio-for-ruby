@@ -28,5 +28,9 @@ jobs:
       - run:
           name: Export
           command: export BROWSER=/usr/bin/google-chrome-stable
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
       - run: bundle install
       - run: ruby './test/circle_ci.rb'
