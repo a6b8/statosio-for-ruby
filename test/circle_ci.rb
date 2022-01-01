@@ -6,7 +6,7 @@ require 'json'
 statosio = Statosio::Generate.new
 
 # Load Sample Dataset
-url = 'https://d3.statosio.com/data/performance.json'
+url = 'https://docs.statosio.com/data/performance.json'
 content = URI.open( url ).read
 dataset = JSON.parse( content )
 
