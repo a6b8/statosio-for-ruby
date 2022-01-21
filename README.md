@@ -1,5 +1,5 @@
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/headline.svg" height="45px" alt="Statosio for Ruby" name="# Statosio for Ruby">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/custom/statosio-for-ruby.svg" height="45px" alt="Statosio for Ruby" name="# Statosio for Ruby">
 </a> 
  
 Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://github.com/mogest/prawn-svg) to generate ```.pdf``` documents. 
@@ -7,23 +7,23 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/examples.svg" height="38px" alt="Examples" name="examples">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/examples.svg" height="38px" alt="Examples" name="examples">
 </a>
 
 ### Select
-![# d3.statosio](https://d3.statosio.com/assets/images/example-select-400.jpg)<br>
-[Select and change position of columns](https://d3.statosio.com/tutorials/select-data.html)
+![# docs.statosio](https://docs.statosio.com/assets/images/example-select-400.jpg)<br>
+[Select and change position of columns](https://docs.statosio.com/tutorials/select-data.html)
 ### Sort Data
-![# d3.statosio](https://d3.statosio.com/assets/images/example-sort-400.jpg)<br>
-[Sort dataset by values](https://d3.statosio.com/tutorials/sort-data.html)
+![# docs.statosio](https://docs.statosio.com/assets/images/example-sort-400.jpg)<br>
+[Sort dataset by values](https://docs.statosio.com/tutorials/sort-data.html)
 ### Change Style
-![# d3.statosio](https://d3.statosio.com/assets/images/example-customize-400.jpg)<br>
-[Change style to dark-mode](https://d3.statosio.com/tutorials/change-style.html)
+![# docs.statosio](https://docs.statosio.com/assets/images/example-customize-400.jpg)<br>
+[Change style to dark-mode](https://docs.statosio.com/tutorials/change-style.html)
 
 <br>
 
 <a href="#headline">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/table-of-contents.svg" height="38px" name="table-of-contents" alt="Table of Contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/table-of-contents.svg" height="38px" name="table-of-contents" alt="Table of Contents">
 </a>
 <br>
 
@@ -43,7 +43,7 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/quickstart.svg" height="38px" alt="Quickstart" name="quickstart">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/quickstart.svg" height="38px" alt="Quickstart" name="quickstart">
 </a>
 
 ```ruby
@@ -122,7 +122,7 @@ end
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/code-generator.svg" height="38px" alt="Code Generator" name="code-generator">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/code-generator.svg" height="38px" alt="Code Generator" name="code-generator">
 </a>
 
 [http://statosio-sandbox.herokuapp.com/code-generator/index.html](http://statosio-sandbox.herokuapp.com/code-generator/index.html)
@@ -130,7 +130,7 @@ end
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/introduction.svg" height="38px" alt="Introduction" name="introduction">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/introduction.svg" height="38px" alt="Introduction" name="introduction">
 </a>
 
 [https://www.youtube.com/watch?v=i6od9O8jz1E](https://www.youtube.com/watch?v=i6od9O8jz1E)
@@ -138,7 +138,7 @@ end
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/documentation.svg" height="38px" alt="Documentation" name="documentation">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/documentation.svg" height="38px" alt="Documentation" name="documentation">
 </a>
 
 [https://d3.statosio.com](https://d3.statosio.com/)
@@ -146,7 +146,7 @@ end
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/chart-types.svg" height="38px" alt="Chart Types" name="chart-types">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/chart-types.svg" height="38px" alt="Chart Types" name="chart-types">
 </a>
 
 ✔️ build simple diagrams fast and reliable, with one function!<br>
@@ -166,7 +166,7 @@ end
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/parameters.svg" height="38px" alt="Parameters" name="parameters">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/parameters.svg" height="38px" alt="Parameters" name="parameters">
 </a>
 
 | | **Value** | **Type** | **Required** |
@@ -180,7 +180,7 @@ end
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/options.svg" height="38px" alt="Options" name="options">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/options.svg" height="38px" alt="Options" name="options">
 </a>
 
 |   | **Option** | **Default** | **Examples** | **Description** |
@@ -230,7 +230,7 @@ end
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/contributing.svg" height="38px" alt="Contributing" name="contributing">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/contributing.svg" height="38px" alt="Contributing" name="contributing">
 </a>
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/statosio.rb. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/a6b8/statosio/blob/master/CODE_OF_CONDUCT.md).
@@ -238,7 +238,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/s
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/license.svg" height="38px" alt="License" name="license">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/license.svg" height="38px" alt="License" name="license">
 </a>
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
@@ -246,7 +246,7 @@ The gem is available as open source under the terms of the [MIT License](https:/
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/code-of-conduct.svg" height="38px" alt="Code of Conduct" name="code-of-conduct">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/code-of-conduct.svg" height="38px" alt="Code of Conduct" name="code-of-conduct">
 </a>
     
 Everyone interacting in the Statosio project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/a6b8/statosio/blob/master/CODE_OF_CONDUCT.md).
@@ -254,7 +254,7 @@ Everyone interacting in the Statosio project's codebases, issue trackers, chat r
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-ruby/readme/headlines/support-my-work.svg" height="38px" alt="Support my Work" name="support-my-work">
+<img href="#table-of-contents" src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/star-us.svg" height="38px" name="star-us" alt="Star us">
 </a>
-    
-Donate by [https://www.paypal.com](https://www.paypal.com/donate?hosted_button_id=XKYLQ9FBGC4RG)
+
+Please ⭐️ star this Project, every ⭐️ star makes us very happy!
