@@ -7,7 +7,7 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/examples.svg" height="38px" alt="Examples" name="examples">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/examples.svg" height="45px" alt="Examples" name="examples">
 </a>
 
 ### Select
@@ -23,7 +23,7 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 <br>
 
 <a href="#headline">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/table-of-contents.svg" height="38px" name="table-of-contents" alt="Table of Contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/table-of-contents.svg" height="45px" name="table-of-contents" alt="Table of Contents">
 </a>
 <br>
 
@@ -43,7 +43,7 @@ Statosio generate charts in a ```.svg``` format. Works with [prawn-svg](https://
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/quickstart.svg" height="38px" alt="Quickstart" name="quickstart">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/quickstart.svg" height="45px" alt="Quickstart" name="quickstart">
 </a>
 
 ```ruby
@@ -122,7 +122,7 @@ end
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/code-generator.svg" height="38px" alt="Code Generator" name="code-generator">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/code-generator.svg" height="45px" alt="Code Generator" name="code-generator">
 </a>
 
 [http://statosio-sandbox.herokuapp.com/code-generator/index.html](http://statosio-sandbox.herokuapp.com/code-generator/index.html)
@@ -130,7 +130,7 @@ end
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/introduction.svg" height="38px" alt="Introduction" name="introduction">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/introduction.svg" height="45px" alt="Introduction" name="introduction">
 </a>
 
 [https://www.youtube.com/watch?v=i6od9O8jz1E](https://www.youtube.com/watch?v=i6od9O8jz1E)
@@ -138,7 +138,7 @@ end
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/documentation.svg" height="38px" alt="Documentation" name="documentation">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/documentation.svg" height="45px" alt="Documentation" name="documentation">
 </a>
 
 [https://d3.statosio.com](https://d3.statosio.com/)
@@ -146,7 +146,7 @@ end
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/chart-types.svg" height="38px" alt="Chart Types" name="chart-types">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/chart-types.svg" height="45px" alt="Chart Types" name="chart-types">
 </a>
 
 ✔️ build simple diagrams fast and reliable, with one function!<br>
@@ -166,7 +166,7 @@ end
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/parameters.svg" height="38px" alt="Parameters" name="parameters">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/parameters.svg" height="45px" alt="Parameters" name="parameters">
 </a>
 
 | | **Value** | **Type** | **Required** |
@@ -180,7 +180,7 @@ end
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/options.svg" height="38px" alt="Options" name="options">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/options.svg" height="45px" alt="Options" name="options">
 </a>
 
 |   | **Option** | **Default** | **Examples** | **Description** |
@@ -230,7 +230,7 @@ end
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/contributing.svg" height="38px" alt="Contributing" name="contributing">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/contributing.svg" height="45px" alt="Contributing" name="contributing">
 </a>
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/statosio.rb. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/a6b8/statosio/blob/master/CODE_OF_CONDUCT.md).
@@ -238,7 +238,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/s
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/license.svg" height="38px" alt="License" name="license">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/license.svg" height="45px" alt="License" name="license">
 </a>
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
@@ -246,7 +246,7 @@ The gem is available as open source under the terms of the [MIT License](https:/
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/code-of-conduct.svg" height="38px" alt="Code of Conduct" name="code-of-conduct">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/code-of-conduct.svg" height="45px" alt="Code of Conduct" name="code-of-conduct">
 </a>
     
 Everyone interacting in the Statosio project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/a6b8/statosio/blob/master/CODE_OF_CONDUCT.md).
@@ -254,7 +254,7 @@ Everyone interacting in the Statosio project's codebases, issue trackers, chat r
 <br>
 
 <a href="#table-of-contents">
-<img href="#table-of-contents" src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/star-us.svg" height="38px" name="star-us" alt="Star us">
+<img href="#table-of-contents" src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/star-us.svg" height="45px" name="star-us" alt="Star us">
 </a>
 
 Please ⭐️ star this Project, every ⭐️ star makes us very happy!
