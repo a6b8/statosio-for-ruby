@@ -125,7 +125,7 @@ end
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/code-generator.svg" height="45px" alt="Code Generator" name="code-generator">
 </a>
 
-[http://statosio-sandbox.herokuapp.com/code-generator/index.html](http://statosio-sandbox.herokuapp.com/code-generator/index.html)
+[https://a6b8.github.io/statosio-shortcode-generator](https://a6b8.github.io/statosio-shortcode-generator)
 
 <br>
 
