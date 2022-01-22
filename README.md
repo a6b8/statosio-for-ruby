@@ -122,6 +122,31 @@ end
 <br>
 
 <a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/setup.svg" height="45px" name="setup" alt="Setup">
+</a>
+
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'statosio'
+```
+
+And then execute:
+
+    $ bundle install
+
+Or install it yourself as:
+
+    $ gem install statosio
+
+
+On Rubygems: 
+- Gem: https://rubygems.org/gems/statosio
+- Profile: https://rubygems.org/profiles/a6b8
+
+<br>
+
+<a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/code-generator.svg" height="45px" alt="Code Generator" name="code-generator">
 </a>
 
